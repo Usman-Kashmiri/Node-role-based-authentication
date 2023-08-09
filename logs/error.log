@@ -1,0 +1,6 @@
+{"date":"2023-08-09T02:06:20.425Z","level":"error","message":"User does not exist","method":"POST","service":"user-service","url":"/login"}
+{"date":"2023-08-09T02:07:40.677Z","level":"error","message":"User already exists","method":"POST","service":"user-service","url":"/register"}
+{"date":"2023-08-09T04:21:25.644Z","level":"error","message":"user is not defined","method":"POST","service":"user-service","url":"/login"}
+{"date":"2023-08-09T04:41:00.567Z","level":"error","message":"jwt is not defined","method":"POST","service":"user-service","url":"/login"}
+{"date":"2023-08-09T04:44:08.829Z","level":"error","message":"User is not defined","method":"POST","service":"user-service","url":"/login"}
+{"date":"2023-08-09T04:44:58.007Z","level":"error","message":"Cannot access 'user' before initialization","method":"POST","service":"user-service","url":"/login"}
