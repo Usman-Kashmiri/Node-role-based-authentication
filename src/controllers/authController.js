@@ -5,7 +5,7 @@ const ErrorHandler = require("../utils/ErrorHandler");
 //register
 const register = async (req, res) => {
   try {
-    const { first_name, last_name, email, password } = req.body;
+    const { first_name, last_name, email,role, password } = req.body;
     if (
       !password.match(
         /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%^&+!=]).{6,}$/
@@ -22,11 +22,12 @@ const register = async (req, res) => {
     if (user) {
       return ErrorHandler("User already exists", 400, req, res);
     }
-    const newUser = await User.create({
+    const newUser = await User.create({ 
       first_name,
       last_name,
       email,
       password,
+      role
     });
     newUser.save();
     return SuccessHandler("User created successfully", 200, res);

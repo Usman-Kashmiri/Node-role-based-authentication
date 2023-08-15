@@ -190,3 +190,26 @@
 {"date":"2023-08-09T04:52:48.231Z","level":"info","message":"Request received","method":"GET","service":"user-service","url":"/api/admin/info"}
 {"date":"2023-08-09T04:52:56.057Z","level":"info","message":"Request received","method":"GET","service":"user-service","url":"/api/admin/info"}
 {"date":"2023-08-09T04:52:58.930Z","level":"info","message":"Request received","method":"GET","service":"user-service","url":"/api/admin/info"}
+{"date":"2023-08-11T15:41:32.891Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/login"}
+{"date":"2023-08-11T15:41:32.960Z","level":"error","message":"User does not exist","method":"POST","service":"user-service","url":"/login"}
+{"date":"2023-08-11T15:41:41.840Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/register"}
+{"date":"2023-08-11T15:41:56.853Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/login"}
+{"date":"2023-08-11T15:41:56.911Z","level":"error","message":"User does not exist","method":"POST","service":"user-service","url":"/login"}
+{"date":"2023-08-11T15:42:17.978Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/login"}
+{"date":"2023-08-11T21:27:55.118Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/register"}
+{"date":"2023-08-11T21:28:25.262Z","level":"error","message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","method":"POST","service":"user-service","url":"/register"}
+{"date":"2023-08-11T21:29:25.113Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/register"}
+{"date":"2023-08-11T21:29:35.169Z","level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms","method":"POST","service":"user-service","url":"/register"}
+{"date":"2023-08-11T22:20:40.975Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/register"}
+{"date":"2023-08-11T22:20:51.020Z","level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms","method":"POST","service":"user-service","url":"/register"}
+{"date":"2023-08-11T22:55:31.205Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/register"}
+{"date":"2023-08-11T22:55:41.234Z","level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms","method":"POST","service":"user-service","url":"/register"}
+{"date":"2023-08-12T08:22:10.213Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/register"}
+{"date":"2023-08-12T08:22:25.527Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/login"}
+{"date":"2023-08-14T21:49:21.596Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/register"}
+{"date":"2023-08-14T21:49:31.622Z","level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms","method":"POST","service":"user-service","url":"/register"}
+{"date":"2023-08-14T21:49:43.326Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/login"}
+{"date":"2023-08-14T21:49:53.351Z","level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms","method":"POST","service":"user-service","url":"/login"}
+{"date":"2023-08-15T09:08:36.558Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/register"}
+{"date":"2023-08-15T09:08:36.733Z","level":"error","message":"User already exists","method":"POST","service":"user-service","url":"/register"}
+{"date":"2023-08-15T09:08:45.450Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/api/auth/register"}
